@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto","Montserrat" ;
+}
+
+
+body{
+    font-size: 16px;
+   background-color: white;
+ /* height: 100vh;
+ width: 100vw; */
+}
+
+
+.navegacao {
+    background-image: linear-gradient(hsl(155,100%,95%),hsl(220, 100%, 90%));
+}
+
+
+img{
+    width: 20%;
+    height: 20%;
+   
+}
+.area_menu {
+    width: 1220px;
+}
+.menu {
+    float: right;
+    padding: 20px 0;
+}
+.menu a:visited {
+    color: rgb(3, 3, 3);
+}
+
+
+.menu a:link {
+    color: rgb(12, 20, 20);
+}
+
+
+.menu a {
+    text-decoration: nome;
+    padding: 5px;
+}
+
+
+.menu a:hover {
+    color: #000000;
+    background-color: #ccddff;
+}
+
+
+.logo-central{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+    max-width: auto;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
