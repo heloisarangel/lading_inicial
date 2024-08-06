@@ -57,7 +57,18 @@ img{
     text-align: center;
     padding-top: 200px;
     max-width: auto;
-   width: 100%;
+     width: 100%;
+  
+}
+h1{
+    text-align: justify;
+    text-align: center;
+    padding: 10px;
+}
+.logo-central img{
+    width: 60%;
+    margin-left: 5%;
+    
 }
 
 
