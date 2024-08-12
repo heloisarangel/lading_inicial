@@ -98,11 +98,12 @@ h2 {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    font-size: 20px;
 
 }
 
-b {
-    font-size: 150px;
+b { /* SOBRE */
+    font-size: 80px;
     position: relative;
     top: -100px;
 
@@ -118,3 +119,4 @@ hr {
     padding: 30%;
     background-image: linear-gradient(to top, #c4e8ff, #5f13ec);
 }
+
