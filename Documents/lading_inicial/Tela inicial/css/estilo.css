@@ -87,10 +87,12 @@ h1 {
 }
 
 .o {
-    padding: 10%;
+    padding: 20%;
     background-image: linear-gradient(to top, #c4e8ff, #1399ec);
     color: #fff;
+   
 }
+
 
 h2 {
     text-align: center;
@@ -119,4 +121,5 @@ hr {
     padding: 30%;
     background-image: linear-gradient(to top, #c4e8ff, #5f13ec);
 }
+
 
