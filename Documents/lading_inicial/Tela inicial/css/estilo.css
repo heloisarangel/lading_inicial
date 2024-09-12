@@ -88,7 +88,7 @@ h1 {
 }
 
 .o {
-    padding: 15%;
+    padding: 10%;
     background-image: linear-gradient(to top, #c4e8ff, #1399ec);
     color: #fff;
    
@@ -118,13 +118,19 @@ hr {
 .linha-reta{
     margin: 0px auto 0.1em;
 }
-.Servico{
-    padding: 20%;
-   
-}
+
 
 
 .justificado{
 
     text-align: justify;
+}
+
+
+
+.p{
+    padding: 20%;
+    background-image: linear-gradient(to top, #bfdaee, #48b2f3);
+    color: #fff;
+    
 }
