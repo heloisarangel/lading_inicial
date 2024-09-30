@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="img/logoTrein.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
 </head>
 
 
@@ -20,11 +19,12 @@
         <div class="area_menu">
             <img src="img/logoTreinOffer.png" alt="logo">
             <div class="menu">
-                <a href="#">INICIO</a>
-                <a href="#">QUEM SOMOS</a>
-                <a href="#">SERVIÇOS</a>
-                <a href="#">CONTATO</a>
-                <a href="#">JÁ TEM UMA CONTA?</a>
+                <a>INICIO</a>
+                <a>QUEM SOMOS</a>
+                <a>SERVIÇOS</a>
+                <a>CONTATO</a>
+                <a>JÁ TEM UMA CONTA?
+                </a>
             </div>
         </div>
         <hr>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="linha"></div>
-    <div class="o" >
+    <div class="o">
 
         <b>Quem Somos</b>
         <div style="margin:0 95px ; font-size: 25px; ">
@@ -62,42 +62,86 @@
             <div class="serv">
                 <b>Serviços</b>
             </div>
-
-
+            <!-- Grid -->
             <div class="grid-container">
                 <div class="grid-item">
                     <img src="./img/treino_capa1.png" alt="">
                     <h1>Equipamento de proteção individual</h1>
                 </div>
                 <div class="grid-item">
-                <img src="./img/treino_capa2.png" alt="">
-                <h1>Treinamento de Prevenção de Incêncios</h1>
+                    <img src="./img/treino_capa2.png" alt="">
+                    <h1>Treinamento de Prevenção de Incêncios</h1>
                 </div>
                 <div class="grid-item">
-                <img src="./img/treino_capa3.png" alt="">
-                <h1>Processamento de extrato de Frutas</h1>
+                    <img src="./img/treino_capa3.png" alt="">
+                    <h1>Processamento de extrato de Frutas</h1>
                 </div>
                 <div class="grid-item">
-                <img src="./img/treino_capa4.png" alt="">
-                <h1>Treinamento  Primeiro Socorros</h1>
+                    <img src="./img/treino_capa4.png" alt="">
+                    <h1>Treinamento Primeiro Socorros</h1>
                 </div>
                 <div class="grid-item">
-                <img src="./img/treino_capa5.png" alt="">
-                <h1>Processo de congelamento de Frutas</h1>
+                    <img src="./img/treino_capa5.png" alt="">
+                    <h1>Processo de congelamento de Frutas</h1>
+
+                </div>
             </div>
         </div>
-    </div>
     </div>
 
     <div class="contac">
         <div class="color">
             <b>Contato</b>
         </div>
-      
+        <div class="campos"><!-- Div para agrupar o campo do nome com a classe "campos" --> 
+            <label for="nome">Digite seu nome inteiro:</label>
+            <input type="text" name="nome" id="nome">
+            <!-- Campo de entrada de texto para o nome -->
+         
+            <!-- Mensagem de alerta para o nome -->
+        </div>
+
+        
+        <div class="campos">
+            <label for="telef">Digite seu número de telefone:</label>
+            <input type="tel" name="telef" id="telef" placeholder="Ex: 00999999999">
+            <!-- Campo de entrada de telefone com um placeholder de exemplo -->
+           
+            <!-- Mensagem de alerta para o telefone -->
+        </div>
+
+        <div class="campos">
+            <label for="email">Digite seu email:</label>
+            <input type="email" name="email" id="email" placeholder="Ex: exemplo@mail.com">
+            <!-- Campo de entrada de e-mail com um placeholder de exemplo -->
+          
+            <!-- Mensagem de alerta para o e-mail -->
+        </div>
+
+        <div class="campos">
+            <label for="gen">Qual seu gênero:</label>
+            <select id="gen" name="gen">
+                <!-- Campo de seleção de gênero -->
+                <option value="" hidden selected></option>
+                <!-- Opção escondida e pré-selecionada para evitar uma escolha vazia -->
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="neutro">Neutro</option>
+                <option value="outro">Prefiro não informar</option>
+            </select>
+          
+            <!-- Mensagem de alerta para a seleção de gênero -->
+        </div>
+
+        
+        
+
+    <script type="text/javascript" src="java.js"></script>
+    <!-- Inclui o arquivo JavaScript para validações e interações -->
     </div>
 
-   
-   
+
+
 
 
 

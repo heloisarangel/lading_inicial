@@ -16,6 +16,7 @@
 
 .navegacao {
     background-image: linear-gradient(hsl(155, 100%, 95%), hsl(220, 100%, 90%));
+    text-decoration: none;
 }
 
 
@@ -25,28 +26,34 @@ img {
 
 }
 
-.area_menu {
+.area_menu  {
     width: 1220px;
+
+   
 }
 
 .menu {
     float: right;
     padding: 20px 0;
+    
 }
 
 .menu a:visited {
-    color: rgb(3, 3, 3);
+    color: rgb(168, 79, 79);
 }
 
 
 .menu a:link {
-    color: rgb(12, 20, 20);
+    color: rgb(7, 7, 7);
+    
 }
 
 
 .menu a {
     text-decoration: none;
     padding: 5px;
+   
+
 }
 
 
@@ -180,4 +187,41 @@ padding-top: 150px;
 .contac 
 .color{
     color: white;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+/* Define a largura, centraliza o formulário na página, adiciona padding, cor de fundo, bordas arredondadas */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* Define o rótulo como um bloco e adiciona margens para espaçamento */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Define estilo para os campos de entrada de texto, número, telefone, e-mail, e para caixas de seleção */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #0d0e0f;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+/* A classe alinhar define que os elementos com essa classe serão exibidos em linha e terão uma margem à direita */
+.alinhar {
+    display: inline-block;
+    margin-right: 100px;
 }
