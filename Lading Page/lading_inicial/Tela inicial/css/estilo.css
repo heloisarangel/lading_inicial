@@ -1,9 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", "Montserrat";
+ font-family: "roboto";
 }
-
 
 .inicial {
     text-align: center;
@@ -11,49 +10,56 @@
     background-color: white;
     /* height: 100vh;
      width: 100vw; */
+     background-image: linear-gradient(hsl(155, 100%, 95%), hsl(220, 100%, 90%));
+   
 }
 
 
 .navegacao {
-    background-image: linear-gradient(hsl(155, 100%, 95%), hsl(220, 100%, 90%));
+    background-image: linear-gradient(to top, #fff, #fff);
     text-decoration: none;
+}
+
+#linha{
+    height: 1px;
+    padding: 1px;
+    background: rgb(15, 15, 15);
 }
 
 
 img {
     width: 20%;
     height: 20%;
-
 }
 
-.area_menu  {
-    width: 1220px;
+.area_menu {
+    width: 1200px;
 
-   
+    margin: 0 auto;
+    background-image: linear-gradient(to top, #c4e8ff, #1399ec);
+    
 }
 
 .menu {
     float: right;
     padding: 20px 0;
-    
+
 }
 
 .menu a:visited {
-    color: rgb(168, 79, 79);
+    color: rgb(3, 3, 3);
 }
 
 
 .menu a:link {
     color: rgb(7, 7, 7);
-    
+
 }
 
 
 .menu a {
     text-decoration: none;
     padding: 5px;
-   
-
 }
 
 
@@ -69,10 +75,6 @@ img {
     padding-top: 200px;
     max-width: auto;
     width: 100%;
-
-
-
-
 }
 
 h1 {
@@ -80,7 +82,7 @@ h1 {
     text-align: center;
     padding: 10px;
     font-family: "Roboto", "Montserrat";
-    font-style: normal; 
+    font-style: normal;
 }
 
 .logo-central img {
@@ -99,7 +101,7 @@ h1 {
     padding: 10%;
     background-image: linear-gradient(to top, #c4e8ff, #1399ec);
     color: #fff;
-   
+
 }
 
 
@@ -113,7 +115,8 @@ h2 {
 
 }
 
-b { /* SOBRE */
+b {
+    /* SOBRE */
     font-size: 80px;
     position: relative;
     top: -100px;
@@ -122,106 +125,174 @@ b { /* SOBRE */
 
 hr {
     color: rgba(90, 90, 247, 0.452);
+
 }
-.linha-reta{
+
+.linha-reta {
     margin: 0px auto 0.1em;
 }
 
 
 
-.justificado{
+.justificado {
 
     text-align: justify;
 }
 
 
 
-.set{
+.set {
     background-image: linear-gradient(to top, #bfdaee, #48b2f3);
     color: #fff;
-    
+
 }
 
-div .serv{
+div .serv {
     margin-top: -150px;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 45px; 
-    justify-items: center;
-    align-items: center; 
-    
-   
-}
-.grid-item img{
+
+.grid-item img {
     width: 290px;
     height: 300px;
     object-fit: cover;
     align-items: center;
     border-radius: 5px;
-    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+    transform: scale(1.1);
+    /* Aumenta o tamanho ao passar o mouse */
     transition: background-color 0.5s ease, transform 0.5s ease;
-  
+
 
 }
 
-.grid-item{
+.grid-item {
     text-align: center;
     font-size: 12px;
 
-    
+
 }
 
-.serv{
-text-align: center;
-padding-top: 150px;
+.serv {
+    text-align: center;
+    padding-top: 150px;
+    color: rgb(94, 23, 23);
+
 }
 
-.contac{
+.contac {
     padding: 10%;
-    background-image: linear-gradient(to top, #bfdaee, #48b2f3);
-    
-}
-.contac 
-.color{
-    color: white;
+   
+ background-image: linear-gradient(to top, #bfdaee, #48b2f3);
 }
 
-.sub-menu-1{
+.contac .color {
+    color: rgb(17, 16, 16);
+}
+
+.sub-menu-1 {
     display: none;
 }
 
-/* Define a largura, centraliza o formulário na página, adiciona padding, cor de fundo, bordas arredondadas */
-form {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-/* Define o rótulo como um bloco e adiciona margens para espaçamento */
-label {
-    display: block;
-    margin: 10px 0 5px;
+.formulario {
+    max-width: 400px; /* Limita a largura do formulário */
+    margin: 20px auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #070707; /* Borda ao redor do formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    background-color: #26a6d8; /* Cor de fundo */
 }
 
-/* Define estilo para os campos de entrada de texto, número, telefone, e-mail, e para caixas de seleção */
-input[type="text"],
-input[type="number"],
-input[type="tel"],
-input[type="email"],
-select {
-    width: 100%;
-    padding: 15px;
-    border: 1px solid #0d0e0f;
-    border-radius: 10px;
-    margin-bottom: 15px;
+.campos {
+    margin-bottom: 15px; /* Espaçamento entre os campos */
 }
-/* A classe alinhar define que os elementos com essa classe serão exibidos em linha e terão uma margem à direita */
-.alinhar {
+
+label {
+    display: block; /* Faz o label ocupar a linha inteira */
+    margin-bottom: 5px; /* Espaçamento abaixo do label */
+}
+
+input, select {
+    width: 100%; /* Faz os campos ocupar a largura total */
+    padding: 10px; /* Espaçamento interno nos campos */
+    border: 1px solid #070707; /* Borda dos campos */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+input:focus, select:focus {
+    border-color: #007BFF; /* Muda a cor da borda ao focar */
+    outline: none; /* Remove a borda padrão do navegador */
+}
+
+.alerta {
+    color: red; /* Cor para mensagens de alerta */
+    font-size: 12px; /* Tamanho da fonte das mensagens */
+    display: none; /* Oculta a mensagem inicialmente */
+}
+
+button {
+    background-color: #007BFF; /* Cor do botão */
+    color: rgb(19, 18, 18); /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    border-radius: 4px; /* Bordas arredondadas do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    width: 100%; /* Faz o botão ocupar toda a largura */
+}
+
+button:hover {
+    background-color: #0056b3; /* Muda a cor do botão ao passar o mouse */
+}
+
+.dropdown {
+    position: relative;
     display: inline-block;
-    margin-right: 100px;
+}
+
+.dropdown-content {
+    display: none; /* Oculta o conteúdo do dropdown por padrão */
+    position: absolute;
+    min-width: 160px; /* Largura mínima */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra */
+    z-index: 1; /* Coloca o dropdown acima de outros elementos */
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Exibe o conteúdo do dropdown ao passar o mouse */
+}
+
+.dropdown-content a {
+    color: black; /* Cor do texto dos links */
+    padding: 12px 16px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado */
+    display: block; /* Faz com que os links ocupem toda a largura */
+}
+
+.dropdown-content a:hover {
+    background-color:  #48b2f3; /* Cor de fundo ao passar o mouse */
+}
+
+
+.carousel-inner {
+    display: flex;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    
+}
+
+.grid-item {
+    text-align: center;
+    margin: 5px;
+}
+
+.grid-item img {
+    max-width: 900px;
+    height: 20px auto;
+
+
 }

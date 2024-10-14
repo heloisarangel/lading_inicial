@@ -10,6 +10,8 @@
     <link rel="shortcut icon" href="img/logoTrein.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
 
 
@@ -23,122 +25,139 @@
                 <a>QUEM SOMOS</a>
                 <a>SERVIÇOS</a>
                 <a>CONTATO</a>
-                <a>JÁ TEM UMA CONTA?
-                </a>
-            </div>
-        </div>
-        <hr>
-    </div>
-    <div class="logo-central">
-
-        <img src="img/logoTreinOffer.png" alt="">
-    </div>
-
-    <div style="margin:0 365px ; font-size: 25px;">
-        <p class="justificado"> Treinoffer é uma plataforma inovadora voltada para o desenvolvimento e aprimoramento
-            contínuo dos colaboradores,oferecendo treinamentos personalizados e eficazes para
-            elevar o desempenho individual e coletivo, contribuir para o crescimento profissional
-            e garantir uma melhoria significativa nos resultados da sua empresa.</p>
-    </div>
-
-    <div class="linha"></div>
-    <div class="o">
-
-        <b>Quem Somos</b>
-        <div style="margin:0 95px ; font-size: 25px; ">
-            <p class="justificado">A Treinoffer oferece treinamentos personalizados e eficazes, projetados para atender
-                às necessidades
-                específicas de cada indivíduo e equipe. Nosso objetivo é impulsionar o desempenho tanto individual
-                quanto coletivo, promovendo o crescimento profissional dos participantes e contribuindo de maneira
-                significativa para os resultados da sua empresa. Na Treinoffer, nos dedicamos a criar um ambiente de
-                aprendizado contínuo e de alta performance, garantindo que cada treinamento maximize o potencial e a
-                eficácia dos nossos clientes.</p>
-        </div>
-    </div>
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">JÁ TEM UMA CONTA?</a>
+                    <div class="dropdown-content">
+                        <a href="#">Cadastra-se</a>
+                        <a href="#">Logar-se</a>
+                    </div>
 
 
-    <div class="servico">
-        <div class="set">
-            <div class="serv">
-                <b>Serviços</b>
-            </div>
-            <!-- Grid -->
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="./img/treino_capa1.png" alt="">
-                    <h1>Equipamento de proteção individual</h1>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/treino_capa2.png" alt="">
-                    <h1>Treinamento de Prevenção de Incêncios</h1>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/treino_capa3.png" alt="">
-                    <h1>Processamento de extrato de Frutas</h1>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/treino_capa4.png" alt="">
-                    <h1>Treinamento Primeiro Socorros</h1>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/treino_capa5.png" alt="">
-                    <h1>Processo de congelamento de Frutas</h1>
 
                 </div>
             </div>
         </div>
-    </div>
+        <div id="linha"></div>
+        <div class="logo-central">
 
-    <div class="contac">
-        <div class="color">
-            <b>Contato</b>
-        </div>
-        <div class="campos"><!-- Div para agrupar o campo do nome com a classe "campos" --> 
-            <label for="nome">Digite seu nome inteiro:</label>
-            <input type="text" name="nome" id="nome">
-            <!-- Campo de entrada de texto para o nome -->
-         
-            <!-- Mensagem de alerta para o nome -->
+            <img src="img/logoTreinOffer.png" alt="">
         </div>
 
-        
-        <div class="campos">
-            <label for="telef">Digite seu número de telefone:</label>
-            <input type="tel" name="telef" id="telef" placeholder="Ex: 00999999999">
-            <!-- Campo de entrada de telefone com um placeholder de exemplo -->
-           
-            <!-- Mensagem de alerta para o telefone -->
+        <div style="margin:0 365px ; font-size: 25px;">
+            <p class="justificado"> Treinoffer é uma plataforma inovadora voltada para o desenvolvimento e aprimoramento
+                contínuo dos colaboradores,oferecendo treinamentos personalizados e eficazes para
+                elevar o desempenho individual e coletivo, contribuir para o crescimento profissional
+                e garantir uma melhoria significativa nos resultados da sua empresa.</p>
         </div>
 
-        <div class="campos">
-            <label for="email">Digite seu email:</label>
-            <input type="email" name="email" id="email" placeholder="Ex: exemplo@mail.com">
-            <!-- Campo de entrada de e-mail com um placeholder de exemplo -->
-          
-            <!-- Mensagem de alerta para o e-mail -->
+        <div class="linha"></div>
+        <div class="o">
+
+            <b>Quem Somos</b>
+            <div style="margin:0 95px ; font-size: 25px; ">
+                <p class="justificado">A Treinoffer oferece treinamentos personalizados e eficazes, projetados para
+                    atender
+                    às necessidades
+                    específicas de cada indivíduo e equipe. Nosso objetivo é impulsionar o desempenho tanto individual
+                    quanto coletivo, promovendo o crescimento profissional dos participantes e contribuindo de maneira
+                    significativa para os resultados da sua empresa. Na Treinoffer, nos dedicamos a criar um ambiente de
+                    aprendizado contínuo e de alta performance, garantindo que cada treinamento maximize o potencial e a
+                    eficácia dos nossos clientes.</p>
+            </div>
         </div>
 
-        <div class="campos">
-            <label for="gen">Qual seu gênero:</label>
-            <select id="gen" name="gen">
-                <!-- Campo de seleção de gênero -->
-                <option value="" hidden selected></option>
-                <!-- Opção escondida e pré-selecionada para evitar uma escolha vazia -->
-                <option value="masculino">Masculino</option>
-                <option value="feminino">Feminino</option>
-                <option value="neutro">Neutro</option>
-                <option value="outro">Prefiro não informar</option>
-            </select>
-          
-            <!-- Mensagem de alerta para a seleção de gênero -->
-        </div>
 
-        
-        
+        <div class="servico">
+            <div class="set">
+                <div class="serv">
+                    <b>Serviços</b>
+                </div>
+                <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="grid-container">
+                                <div class="grid-item">
+                                    <img src="./img/treino_capa1.png" alt="">
+                                    <h1>Equipamento de proteção individual</h1>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="./img/treino_capa2.png" alt="">
+                                    <h1>Treinamento de Prevenção de Incêndios</h1>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="./img/treino_capa3.png" alt="">
+                                    <h1>Processamento de extrato de Frutas</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="grid-container">
+                                <div class="grid-item">
+                                    <img src="./img/treino_capa4.png" alt="">
+                                    <h1>Treinamento Primeiro Socorros</h1>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="./img/treino_capa5.png" alt="">
+                                    <h1>Processo de congelamento de Frutas</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
 
-    <script type="text/javascript" src="java.js"></script>
-    <!-- Inclui o arquivo JavaScript para validações e interações -->
-    </div>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+                <div class="contac">
+                    <div class="color">
+                        <b>Contato</b>
+                    </div>
+                    <form class="formulario">
+                        <div class="campos">
+                            <label for="nome">Digite seu nome completo:</label>
+                            <input type="text" name="nome" id="nome" required>
+                            <span class="alerta" id="alert-nome"></span>
+                        </div>
+                    
+                        <div class="campos">
+                            <label for="telef">Digite seu número de telefone:</label>
+                            <input type="tel" name="telef" id="telef" placeholder="Ex: 00999999999" required>
+                            <span class="alerta" id="alert-telefone"></span>
+                        </div>
+                    
+                        <div class="campos">
+                            <label for="email">Digite seu e-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="Ex: exemplo@mail.com" required>
+                            <span class="alerta" id="alert-email"></span>
+                        </div>
+                    
+                        <div class="campos">
+                            <label for="gen">Qual seu gênero:</label>
+                            <select id="gen" name="gen" required>
+                                <option value="" hidden selected>Selecione...</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="outro">Prefiro não informar</option>
+                            </select>
+                            <span class="alerta" id="alert-genero"></span>
+                        </div>
+                    
+                        <button type="submit">Enviar</button>
+                    </form>
+                    
+
+                    <script type="text/javascript" src="java.js"></script>
+                    <!-- Inclui o arquivo JavaScript para validações e interações -->
+                </div>
 
 
 
